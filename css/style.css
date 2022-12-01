@@ -6,6 +6,7 @@
 
 /* start */
 
+
 * {
   box-sizing: border-box;
 }
@@ -15,9 +16,7 @@ body {
   padding: 0;
 }
 
-h1,
-h2,
-h3 {
+h1, h2, h3, h4, h5, h6 {
   font-family: "Secular One";
 }
 
@@ -27,6 +26,10 @@ h2 {
   line-height: 15px;
 }
 
+img {
+  display: block;
+  width: 100%;
+}
 
 button {
   font-family: "Nunito";
@@ -229,7 +232,6 @@ p {
 }
 
 .article2-image img {
-  width: 100%;
   height: 500px;
   object-fit: cover;
   object-position: left top;
